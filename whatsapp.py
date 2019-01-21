@@ -36,7 +36,7 @@ while True:
                 time.sleep(1)
             except:
                 mesaj=browser.find_element_by_xpath("/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]")
-                mesaj.send_keys("Her yeri aradım ama inan bulamadın ;(")
+                mesaj.send_keys("Her yeri aradım ama inan bulamadım ;(")
                 mesaj.send_keys(u'\ue007')
                 time.sleep(1)
                 
